@@ -1,0 +1,10 @@
+{
+  "greet": "Hello user!",
+  "ask": "Can I ask you  a question?",
+  "E": "[Press e if yes]",
+  "N": "[Press n if no]",
+  "praise": "Great! Because this is what we are gonna talk about today!",
+  "nope": "We’re gonna discuss it anyway.",
+  "invalid": "valid input"
+
+}
