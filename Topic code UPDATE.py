@@ -1,8 +1,17 @@
-print("Hello user!")
-print("Can I ask you  a question?")
+import json
 
-print("[Press e if yes]")
-print("[Press n if no]")
+
+filename = "dialogue.json"
+
+with open(filename) as f:
+    dialogue = json.load(f)
+
+print(dialogue["greet"])
+print(dialogue["ask"])
+print(dialogue["E"])
+print(dialogue["N"])
+
+
 
 cont = False
 while cont == False:
@@ -10,19 +19,18 @@ while cont == False:
 
     if YesNo == "e" or YesNo == "E":
         input("Do you know what cells are?: ")
-        print("Great! Because this is what we are gonna talk about today!")
+        print(dialogue["praise"])
 
         break
 
     elif YesNo == "n" or YesNo == "N":
-        print("We’re gonna discuss it anyway.")
+        print(dialogue["nope"])
 
         break
 
 
     else:
-        print("Give me a valid input. >:[.")
-
+        print(dialogue["invalid"])
 
 cont = False
 while cont == False:
@@ -32,62 +40,27 @@ while cont == False:
     print("")
     print("THREE STATEMENTS OF CELLS")
 
-    print("A) Every living thing are made of cells")
-    print("B) Cells are the basic unit of life")
-    print("C) Cells come from pre existing cells")
+    print(dialogue["a"])
+    print(dialogue["b"])
+    print(dialogue["c"])
 
-    print("Do you get it?")
-    print("[Press e if yes]")
-    print("[Press n if no]")
+    print(dialogue["dygi"])
+    print(dialogue["E"])
+    print(dialogue["N"])
 
 
     YesNo = input("Enter: ")
 
     if YesNo == "e" or YesNo == "E":
-        print("Great! We can now move on to the next part!")
+        print(dialogue["moveon"])
         break
 # TO DO: SHOW NEXT PART
 
     elif YesNo == "n" or YesNo == "N":
-        print("Read it again for further information.")
+        print(dialogue["uhoh"])
 
 
     if YesNo != "e" or YesNo != "E" or YesNo != "n" or YesNo != "N":
-        print("Give me a valid input. >:[.")
+        print(dialogue["invalid"])
 
 # TO DO: WHEN THE USER DOESNT PUT A VALID INPUT, DO NOT REPEAT THE LESSON MENTIONED ABOVE.
-print("TYPE OF CELLS inside our body")
-print("	Red blood cells")
-print("Also called erythrocyte")
-print(" Cells that transport oxygen to the lungs and release carbon dioxide from the lungs.")
-print("Without erythrocytes, we cannot function the respiratory system and lead to your sad death.")
-
-print("	White blood cells")
-print(" Also called leukocytes")
-print(" Fights infections and diseases to protect your human body.")
-print("Without leukocytes, we could get sick easily and eventually and probably would lead to a sad death.")
-
-print("Do you get it?")
-print("		[Press e if yes]")
-print("		[Press n if no]")
-YesNo = input("Enter: ")
-
-cont = False
-while cont == False:
-    if YesNo == "e" or YesNo == "E":
-        print("Great! We can now move on to the next part. The quiz!")
-        break
-# TO DO: GO STRAIGHT TO THE QUIZ
-
-    elif YesNo == "n" or YesNo == "N":
-        print("Read it again for further information.")
-
-
-        if YesNo != "e" or YesNo != "E" or YesNo != "n" or YesNo != "N":
-            print("Give me a valid input. >:[.")
-
-
-
-
-
-
