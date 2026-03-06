@@ -5,6 +5,13 @@
   "N": "[Press n if no]",
   "praise": "Great! Because this is what we are gonna talk about today!",
   "nope": "We’re gonna discuss it anyway.",
-  "invalid": "valid input"
+  "invalid": "invalid input",
+  "a":"A) Every living thing are made of cells",
+  "b": "B) Cells are the basic unit of life",
+  "c": "C) Cells come from pre existing cells",
+  "dygi": "Do you get it?",
+  "moveon": "Great! We can now move on to the next part!",
+  "uhoh": "Read it again for further information."
+
 
 }
