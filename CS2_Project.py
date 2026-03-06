@@ -8,8 +8,10 @@ def print_menu_choices():
     with open(filename, 'r') as file:
         data = json.load(file)
         while True:
+            for x in data:
+                if x["dict"] == "topics":
+                    print(x["choices"])
             choice = input("Input: ")
-            print(choice)
             for x in data:
                 if x["dict"] == "topics":
                     if choice in x["list"]:
@@ -23,13 +25,13 @@ def print_menu_choices():
                 print("enter valid input")
 
 def topics():
-    print("placeholder")
+    print("\ntopics placeholder")
 def challenges():
-    print("placeholder")
+    print("challenges placeholder")
 def acheivments():
-    print("placeholder")
+    print("achievments placeholder")
 def developers():
-    print("placeholder")
+    print("developers placeholder\n")
 #main
 while True:
     choice = print_menu_choices()
