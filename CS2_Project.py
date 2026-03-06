@@ -1,20 +1,27 @@
 #imports
 import json
-import sleep
 
 #variables
-topics_dict = {"a":"cells",
-        "b":"tissue",
-        "c":"organs",
-        "d": "organisms",
-        "e":  "eukaryotes",
-        "f" :  "prokaryotes"}
-
-
 #functions
-def print_menu_choices(topics):
-    for key, value in topics.items():
-        print(f"{key}: {value}")
+def print_menu_choices():
+    filename = "topics.json"
+    with open(filename, 'r') as file:
+        data = json.load(file)
+        while True:
+            choice = input("Input: ")
+            print(choice)
+            for x in data:
+                if x["dict"] == "topics":
+                    if choice in x["list"]:
+                        z = True
+                    else:
+                        z = False
+            if z == True:
+                break
+                return choice
+            else:
+                print("enter valid input")
+
 def topics():
     print("placeholder")
 def challenges():
@@ -25,8 +32,7 @@ def developers():
     print("placeholder")
 #main
 while True:
-    print_menu_choices(topics_dict)
-    choice = input()
+    choice = print_menu_choices()
     topics()
     challenges()
     acheivments()
