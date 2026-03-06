@@ -3,11 +3,9 @@ import json
 
 #variables
 #functions
-def instructs():
+def instructs(): # prints instructions
 
-    import json
-
-    filename = "instructions.json"
+    filename = "instructions.json" # open file
     with open(filename, 'r') as file:
         instructions = json.load(file)
 
@@ -25,7 +23,7 @@ def instructs():
         print(instructions["4Q"])
 
 def print_menu_choices():
-    filename = "topics.json"
+    filename = "menu.json"
     with open(filename, 'r') as file:
         data = json.load(file)
         while True:
@@ -40,15 +38,42 @@ def print_menu_choices():
                     else:
                         z = False
             if z == True:
-                break
                 return choice
             else:
                 print("enter valid input")
 
-def topics():
-    print("\ntopics placeholder")
+def topics(choice):
+    if choice == "a":
+        filename = "topics.json"
+        with open(filename, 'r') as file:
+            data = json.load(file)
+            x = data[0]
+            print(x["choices1"])
+            while True:
+                    choice1 = input("Input: ")
+                    if choice1 in x["list1"]:
+                        z = True
+                    else:
+                        z = False
+                    if z == True:
+                        break
+                    else:
+                        print("enter valid input")
+                    print("choices2")
+                    while True:
+                        choice2 = input("Input: ")
+                        if choice2 in x["list2"]:
+                            z = True
+                        else:
+                            z = False
+                        if z == True:
+                            break
+                        else:
+                            print("enter valid input")
+                    break
+
 def challenges():
-    print("challenges placeholder")
+    print("\nchallenges placeholder")
 def acheivments():
     print("achievments placeholder")
 def developers():
@@ -57,7 +82,7 @@ def developers():
 while True:
     instructs()
     choice = print_menu_choices()
-    topics()
+    topics(choice)
     challenges()
     acheivments()
     developers()
