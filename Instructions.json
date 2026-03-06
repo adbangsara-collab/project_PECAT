@@ -1,16 +1,16 @@
 {
-    "I":"INSTRUCTIONS",
-    "Dl":"During Lesson:",
-    "1L":"1) No using of cuss words when answering guide questions",
-    "2L":"2) You can not turn back",
-    "3L":"3) Make sure you understand the lesson before going to the quiz",
-    "4L":"4) Be appropriate",
+    "I":"INSTRUCTIONS\n",
+    "Dl":"During Lesson:\n",
+    "1L":"1) No using of cuss words when answering guide questions\n",
+    "2L":"2) You can not turn back\n",
+    "3L":"3) Make sure you understand the lesson before going to the quiz\n",
+    "4L":"4) Be appropriate\n",
 
-    "Q":"During Quiz",
-    "1Q":"1) DO NOT USE AI",
-    "2Q":"2) Do not use notes",
-    "3Q":"3) Be appropriate",
-    "4Q":"4) Do not say inappropriate words"
+    "Q":"During Quiz\n",
+    "1Q":"1) DO NOT USE AI\n",
+    "2Q":"2) Do not use notes\n",
+    "3Q":"3) Be appropriate\n",
+    "4Q":"4) Do not say inappropriate words\n"
 
 
 }
