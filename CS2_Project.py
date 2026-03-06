@@ -22,11 +22,11 @@ def instructs(): # prints instructions
         print(instructions["3Q"])
         print(instructions["4Q"])
 
-def print_menu_choices():
+def print_menu_choices(): # prints menu and gets choice
     filename = "menu.json"
     with open(filename, 'r') as file:
         data = json.load(file)
-        while True:
+        while True:# loops until valid input
             for x in data:
                 if x["dict"] == "topics":
                     print(x["choices"])
@@ -42,14 +42,14 @@ def print_menu_choices():
             else:
                 print("enter valid input")
 
-def topics(choice):
+def topics(choice): # function for topic option
     if choice == "a":
         filename = "topics.json"
         with open(filename, 'r') as file:
             data = json.load(file)
             x = data[0]
             print(x["choices1"])
-            while True:
+            while True: # loops until valid input
                     choice1 = input("Input: ")
                     if choice1 in x["list1"]:
                         z = True
@@ -59,8 +59,8 @@ def topics(choice):
                         break
                     else:
                         print("enter valid input")
-                    print("choices2")
-                    while True:
+            print(x["choices2"])
+            while True:# loops until valid input
                         choice2 = input("Input: ")
                         if choice2 in x["list2"]:
                             z = True
@@ -70,13 +70,17 @@ def topics(choice):
                             break
                         else:
                             print("enter valid input")
-                    break
+                        break
+            for x in data:
+                if x["dict"] == choice1:
+                    print(x[choice2]) # we will make this display text, video or graphic in the future when th files are good
 
-def challenges():
+
+def challenges(): # function for chyallenges option
     print("\nchallenges placeholder")
-def acheivments():
+def acheivments():# function for acheivment option
     print("achievments placeholder")
-def developers():
+def developers():# function for developers option
     print("developers placeholder\n")
 #main
 while True:
