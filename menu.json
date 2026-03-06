@@ -1,0 +1,7 @@
+[
+  {
+    "dict": "topics",
+    "choices" : "Input Choice:\na : Topics\nb : Challenges\nc : Achievements\nd : Developers\n",
+    "list": ["a","b","c","d"]
+  }
+]
