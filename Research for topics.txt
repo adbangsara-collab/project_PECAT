@@ -1,0 +1,181 @@
+﻿QUIZ ABOUT CELLS
+                [Good luck]
+
+
+Part 1: MULTIPLE CHOICE (5 items) 
+                Instructions: Pick the BEST ANSWER for each item. USE CAPITAL LETTERS WHEN ANSWERING!
+
+
+[Show one question at a time]
+
+
+1. What is the first statement of the “Three statements of cells”?
+1. Cells come from pre existing cells
+2. Cells are the basic unit of life
+3. Every living things are made of cells
+4. All of the above
+
+
+        If answer is:
+A - You are incorrect! You have one more chance!
+B - You are incorrect! You have one more chance!
+C - You are correct! You can now move on to the next question
+D - You are incorrect! You have one more chance!
+
+
+Second chance:
+A - You are incorrect! 
+B - You are incorrect!
+C - You are correct! You can now move on to the next question
+D - You are incorrect!
+
+
+        2. Which of the following statements is incorrect?
+                a. Cells are not important, besides living without them is better.
+                b. Cells have two types . Red and white blood cells.
+                c. Cells have two types. They are not important.
+                d. none of the above
+
+
+                If answer is:
+A - You are incorrect! You have one more chance!
+B - You are correct! You can now move on to the next question!
+C - You are incorrect! You have one more chance
+D - You are incorrect! You have one more chance!
+
+
+Second chance:
+A - You are incorrect! 
+B - You are correct! You can now move on to the next question!
+C - You are incorrect! 
+D - You are incorrect!
+
+
+                3. ___ cells are also called eukaryotic cells
+1. White
+2. Yellow
+3. Red
+4. Violet
+
+
+If answer is:
+A - You are incorrect! You have one more chance!
+B - You are incorrect! You have one more chance!
+C - You are correct! You can now move on to the next question
+D - You are incorrect! You have one more chance!
+
+
+Second chance:
+A - You are incorrect! 
+B - You are incorrect!
+C - You are correct! You can now move on to the next question
+D - You are incorrect!
+
+
+                4. ___ cells are called leukocytes
+
+
+1. Red
+2. Violet
+3. White
+4. Green
+
+
+If answer is:
+A - You are incorrect! You have one more chance!
+B - You are incorrect! You have one more chance!
+C - You are correct! You can now move on to the next question
+D - You are incorrect! You have one more chance!
+
+
+Second chance:
+A - You are incorrect! 
+B - You are incorrect!
+C - You are correct! You can now move on to the next question
+D - You are incorrect!
+
+
+                5. Does bacterium contain cells?
+
+
+1. No
+2. Yes
+3. I do not know
+4. Some
+
+
+If answer is:
+A - You are incorrect! You have one more chance!
+B - You are correct! You can now move on to the next question!
+C - You are incorrect! You have one more chance
+D - You are incorrect! You have one more chance!
+
+
+Second chance:
+A - You are incorrect! 
+B - You are correct! You can now move on to the next question!
+C - You are incorrect! 
+D - You are incorrect
+
+
+Part 2: Modified true or false (5 items)
+        Answer True if  the corresponding statement is correct else if not write the right word for the wrong word.
+
+
+1.Cells are the building block of ‘matter’.
+[user inputs answer]
+If answer is:
+True = Wrong. Moving on…
+False = What is it then?
+[user inputs answer]
+[if the user answers false again the quiz will break and the contents will not be saved.]
+Life [whether caps lock as long as it’s life] = Correct!
+Another word/ Incorrect spelling = Wrong. Moving on…
+
+
+2.We have ‘less’ than a thousand cells in our body.
+[user inputs answer]
+If answer is:
+True = Wrong. Moving on…
+False = What is it then?
+[user inputs answer]
+[if the user answers false again the quiz will break and the contents will not be saved.]
+more [whether caps lock as long as it's more] = Correct!
+Another word/ Incorrect spelling = Wrong. Moving on…
+
+
+3.Red blood cells transport ‘carbon dioxide’ to our lungs
+[user inputs answer]
+If answer is:
+True = Wrong. Moving on…
+False = What is it then?
+[user inputs answer]
+[if the user answers false again the quiz will break and the contents will not be saved.]
+oxygen [whether caps lock as long as its oxygen] = Correct!
+Another word/ Incorrect spelling = Wrong. Moving on…
+4.There are ‘ 3’ statements of cells
+[user inputs answer]
+If answer is:
+True = Correct!
+False = Wrong. Moving on…
+Another word/ Incorrect spelling = Wrong. Moving on…
+
+
+5. Cells come ‘from’ pre-existing cells.
+        [user inputs answer]
+If answer is:
+True = Correct!
+False = Wrong. Moving on…
+Another word/ Incorrect spelling = Wrong. Moving on…
+
+
+
+
+Final message is printed “ Congratulations on completing your very first quiz”
+If score is 6 or more
+        Print You have passed. Nice work user!
+If score is below 6
+        Print You failed. It's fine you tried your best!
+
+
+Print try again?
