@@ -78,21 +78,28 @@ def topics(choice): # function for topic option
 
 def challenges(): # function for chyallenges option
         if choice == "b":
-        filename = "challenges.json"
-        with open(filename, 'r') as file:
-            data = json.load(file)
-            x = data[0]
-            print(x["choices1"])
-            while True:  # loops until valid input
-                choice1 = input("Input: ")
-                if choice1 in x["list1"]:
-                    z = True
-                else:
-                    z = False
-                if z == True:
-                    break
-                else:
-                    print("enter valid input")
+            filename = "challenges.json"
+            with open(filename, 'r',encoding='utf-8') as file:
+                data = json.load(file)
+                x = data[0]
+                print(x["choices1"])
+                while True:  # loops until valid input
+                    choice1 = input("Input: ")
+                    if choice1 in x["list1"]:
+                        z = True
+                    else:
+                        z = False
+                    if z == True:
+                        break
+                    else:
+                        print("enter valid input")
+                for x in  data:
+                    if x["dict"] == choice1:
+                        break
+                y = x["dialog1"]
+                for z in range(1,5):
+                    print(y[str(z)])
+
 def acheivments():# function for acheivment option
     print("achievments placeholder")
 def developers():# function for developers option
@@ -105,4 +112,3 @@ while True:
     challenges()
     acheivments()
     developers()
-
