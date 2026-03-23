@@ -2,6 +2,7 @@
 import json
 
 #variables
+
 #functions
 def instructs(): # prints instructions
 
@@ -77,33 +78,86 @@ def topics(choice): # function for topic option
 
 
 def challenges(): # function for chyallenges option
-        if choice == "b":
-            filename = "challenges.json"
-            with open(filename, 'r',encoding='utf-8') as file:
-                data = json.load(file)
-                x = data[0]
-                print(x["choices1"])
-                while True:  # loops until valid input
-                    choice1 = input("Input: ")
-                    if choice1 in x["list1"]:
-                        z = True
+    if choice == "b":
+        filename = "challenges.json"
+        with open(filename, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            x = data[0]
+            print(x["choices1"])
+            while True:  # loops until valid input
+                choice1 = input("Input: ")
+                if choice1 in x["list1"]:
+                    z = True
+                else:
+                    z = False
+                if z == True:
+                    break
+                else:
+                    print("enter valid input")
+            for x in data:
+                if x["dict"] == choice1:
+                    break
+            dialog1 = x["dialog1"]
+            for z in range(1, 6):
+                tries = 0
+                while True:
+                    answers1 = x["answers1"]
+                    print(dialog1[str(z)])
+                    tries += 1
+                    while True:  # loops until valid input
+                        answer = input("Input: ")
+                        if answer in x["valid_ans1"]:
+                            z = True
+                        else:
+                            z = False
+                        if z == True:
+                            break
+                        else:
+                            print("enter valid input")
+                    if answer.lower() == answers1[(z-1)]:
+                        dialog_ans1 = x["dialog_ans1"]
+                        print(dialog_ans1["correct"])
+                        break
+                    elif tries == 1:
+                        dialog_ans1 = x["dialog_ans1"]
+                        print(dialog_ans1["incorrect1"])
                     else:
-                        z = False
-                    if z == True:
+                        dialog_ans1 = x["dialog_ans1"]
+                        print(dialog_ans1["incorrect2"])
+                        break
+            dialog2 = x["dialog2"]
+            for z in range(1, 6):
+                while True:
+                    while True:
+                        answers1 = x["answers1"]
+                        print(dialog1[str(z)])
+                        tries += 1
+                        while True:  # loops until valid input
+                            answer = input("Input: ")
+                            if answer in x["valid_ans2"]:
+                                z = True
+                            else:
+                                z = False
+                            if z == True:
+                                break
+                            else:
+                                print("enter valid input")
+                    print(dialog2[str(z)])
+                    answer = input("Enter answer: ")
+                    if answer.lower() == answers2[(z-1)]:
+                        dialog_ans2 = x["dialog_ans2"]
+                        print(dialog_ans2["correct"])
                         break
                     else:
-                        print("enter valid input")
-                for x in  data:
-                    if x["dict"] == choice1:
-                        break
-                y = x["dialog1"]
-                for z in range(1,5):
-                    print(y[str(z)])
+                        dialog_ans2 = x["dialog_ans1"]
+                        print(dialog_ans2["incorrect"])
+
 
 def acheivments():# function for acheivment option
     print("achievments placeholder")
 def developers():# function for developers option
     print("developers placeholder\n")
+
 #main
 while True:
     instructs()
