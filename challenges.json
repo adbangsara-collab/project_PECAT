@@ -10,7 +10,7 @@
     "dict" : "a",
     "main_dialog" : "\uFEFF| QUIZ ABOUT CELLS |\n                [Good luck]",
     "dialog1" : {
-      "1" : "1. What is the first statement of the “Three statements of cells”?\n1. Cells come from pre existing cells\n2. Cells are the basic unit of life\n3. Every living things are made of cells\n4. All of the above",
+      "1" : "1. What is the first statement of the “Three statements of cells”?\n                a. Cells come from pre existing cells\n                b. Cells are the basic unit of life\n                c. Every living things are made of cells\n                d. All of the above",
       "2" : "2. Which of the following statements is incorrect?\n                a. Cells are not important, besides living without them is better.\n                b. Cells have two types . Red and white blood cells.\n                c. Cells have two types. They are not important.\n                d. none of the above\n",
       "3" : "3. ___ cells are also called eukaryotic cells\n                a. White\n                b. Yellow\n                c. Red\n                d. Violet\n",
       "4" : "4. ___ cells are called leukocytes\n                a. Red\n                b. Violet\n                c. White\n                d. Green\n",
@@ -18,7 +18,7 @@
     }
     "dialog2" : {
       "1" : "1.Cells are the building block of ‘matter’.",
-      "2" : "2.We have ‘less’ than a thousand cells in our body."
+      "2" : "2.We have ‘less’ than a thousand cells in our body.",
       "3" : "3.Red blood cells transport ‘carbon dioxide’ to our lungs",
       "4" : "4.There are ‘ 3’ statements of cells",
       "5" : "5. Cells come ‘from’ pre-existing cells."
