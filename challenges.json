@@ -1,40 +1,7 @@
-[
-  {
+{
     "dict" : "menu",
     "choices1": "a : Cells\nb : Tissue\nc : Organ\nd : Organism\ne : Eukaryote\nf : Prokaryote\n",
     "list1" : ["a","b","c","d","e","f"],
     "choices2" : "1 : Graphic\n2 : Textual\n3 : Video",
     "list2" : ["1","2","3"]
-  },
-  {
-    "dict" : "a",
-    "main_dialog" : "\uFEFF| QUIZ ABOUT CELLS |\n                [Good luck]",
-    "dialog1" : {
-      "1" : "1. What is the first statement of the “Three statements of cells”?\n                a. Cells come from pre existing cells\n                b. Cells are the basic unit of life\n                c. Every living things are made of cells\n                d. All of the above",
-      "2" : "2. Which of the following statements is incorrect?\n                a. Cells are not important, besides living without them is better.\n                b. Cells have two types . Red and white blood cells.\n                c. Cells have two types. They are not important.\n                d. none of the above\n",
-      "3" : "3. ___ cells are also called eukaryotic cells\n                a. White\n                b. Yellow\n                c. Red\n                d. Violet\n",
-      "4" : "4. ___ cells are called leukocytes\n                a. Red\n                b. Violet\n                c. White\n                d. Green\n",
-      "5" : "5. Does bacterium contain cells?\n                a. No\n                b. Yes\n                c. I do not know\n                d. Some\n"
-    },
-    "answers1" : ["c","c","b","c","b"],
-    "dialog2" : {
-      "1" : "1.Cells are the building block of ‘matter’.",
-      "2" : "2.We have ‘less’ than a thousand cells in our body.",
-      "3" : "3.Red blood cells transport ‘carbon dioxide’ to our lungs",
-      "4" : "4.There are ‘ 3’ statements of cells",
-      "5" : "5. Cells come ‘from’ pre-existing cells."
-    },
-    "answers2" : ["false","false","false","true","true"],
-    "dialog_ans1" : {
-      "correct" : " You are correct! You can now move on to the next question!",
-      "incorrect1" : "You are incorrect! You have one more chance",
-      "incorrect2" : "You are incorrect!"
-    },
-    "dialog_ans2" : {
-      "correct" : " You are correct! You can now move on to the next question!",
-      "incorrect" : "Wrong. Moving on..."
-    },
-    "valid_ans1" : ["a","b","c","d"],
-    "valid_ans2" : ["true","false"]
-  }
-]
+}
