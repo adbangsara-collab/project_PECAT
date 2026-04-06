@@ -73,7 +73,7 @@ def challenges(): # function for challenges option
         filename = "challenges.json"
         with open(filename, 'r', encoding='utf-8') as file:
             data = json.load(file)
-            x = data[0]
+            x = data
             print(x["choices1"])
             while True:  # loops until valid input
                 choice1 = input("Input: ")
@@ -81,10 +81,13 @@ def challenges(): # function for challenges option
                     break
                 else:
                     print("enter valid input")
-            for x in data:
-                if x["dict"] == choice1:
-                    break
+            file.close()
+        filename = f"challenges_{choice1}.json"
+        with open(filename, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            x = data
             dialog1 = x["dialog1"]
+            correct = 0
             for z in range(1, 6):
                 tries = 0
                 while True:
@@ -96,10 +99,11 @@ def challenges(): # function for challenges option
                         if answer in x["valid_ans1"]:
                             break
                         else:
-                            print("enter valid input")
+                            print("Enter valid input: ")
                     if answer.lower() == answers1[(z-1)]:
                         dialog_ans1 = x["dialog_ans1"]
                         print(dialog_ans1["correct"])
+                        correct += 1
                         break
                     elif tries == 1:
                         dialog_ans1 = x["dialog_ans1"]
@@ -113,7 +117,6 @@ def challenges(): # function for challenges option
                 while True:
                         answers2 = x["answers2"]
                         print(dialog2[str(z)])
-                        tries += 1
                         while True:  # loops until valid input
                             answer = input("Input: ")
                             if answer in x["valid_ans2"]:
@@ -128,6 +131,17 @@ def challenges(): # function for challenges option
                             dialog_ans2 = x["dialog_ans2"]
                             print(dialog_ans2["incorrect"])
                         break
+            if correct == 6:
+                print(x["pass"])
+            else:
+                print(x["fail"])
+            print(f"You got {correct} correct out of 10")
+        filename = f"acheivments.json"
+        with open(filename, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            if correct == 6:
+                data[choice1] = "solved"
+                json.dump(data, file)
 
 
 def acheivments():# function for acheivment option
