@@ -10,18 +10,28 @@ def instructs(): # prints instructions
     with open(filename, 'r') as file:
         instructions = json.load(file)
 
+        print("="*20)
         print(instructions["I"])
         print(instructions["Dl"])
         print(instructions["1L"])
+        print("~" * 20)
         print(instructions["2L"])
+        print("~" * 20)
         print(instructions["3L"])
+        print("~" * 20)
         print(instructions["4L"])
+        print("~" * 20)
 
         print(instructions["Q"])
         print(instructions["1Q"])
+        print("~" * 20)
         print(instructions["2Q"])
+        print("~" * 20)
         print(instructions["3Q"])
+        print("~" * 20)
         print(instructions["4Q"])
+        print("~" * 20)
+        print("=" * 20)
 
 def print_menu_choices(): # prints menu and gets choice
     filename = "menu.json"
