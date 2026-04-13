@@ -10,28 +10,18 @@ def instructs(): # prints instructions
     with open(filename, 'r') as file:
         instructions = json.load(file)
 
-        print("="*20)
         print(instructions["I"])
         print(instructions["Dl"])
         print(instructions["1L"])
-        print("~" * 20)
         print(instructions["2L"])
-        print("~" * 20)
         print(instructions["3L"])
-        print("~" * 20)
         print(instructions["4L"])
-        print("~" * 20)
 
         print(instructions["Q"])
         print(instructions["1Q"])
-        print("~" * 20)
         print(instructions["2Q"])
-        print("~" * 20)
         print(instructions["3Q"])
-        print("~" * 20)
         print(instructions["4Q"])
-        print("~" * 20)
-        print("=" * 20)
 
 def print_menu_choices(): # prints menu and gets choice
     filename = "menu.json"
@@ -73,9 +63,13 @@ def topics(choice): # function for topic option
                             break
                         else:
                             print("enter valid input")
-            for x in data:
-                if x["dict"] == choice1:
-                    print(x[str(choice2)]) # we will make this display text, video or graphic in the future when th files are good
+        filename = f"topics_{choice1}.json"
+        with open(filename, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            if choice2 == "1":
+                for x in range(1, data["amount"]):
+                    print(data[choice2][x])
+
 
 
 def challenges(): # function for challenges option
@@ -136,12 +130,13 @@ def challenges(): # function for challenges option
                         if answer.lower() == answers2[(z-1)]:
                             dialog_ans2 = x["dialog_ans2"]
                             print(dialog_ans2["correct"])
+                            correct += 1
                             break
                         else:
                             dialog_ans2 = x["dialog_ans2"]
                             print(dialog_ans2["incorrect"])
                         break
-            if correct == 6:
+            if correct >= 6:
                 print(x["pass"])
             else:
                 print(x["fail"])
@@ -149,16 +144,29 @@ def challenges(): # function for challenges option
         filename = f"acheivments.json"
         with open(filename, 'r', encoding='utf-8') as file:
             data = json.load(file)
-            if correct == 6:
-                data[choice1] = "solved"
-                json.dump(data, file)
+            if correct >= 6:
+                data[f"challenge_{choice1}"] = "solved"
+                print("a")
+        with open(filename, 'w') as file:
+            json.dump(data, file)
+            print("b")
+
 
 
 def acheivments():# function for acheivment option
-    print("achievments placeholder")
-def developers():# function for developers option
-    print("developers placeholder\n")
+    if choice == "c":
+        filename = f"acheivments.json"
+        with open(filename, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            for x in range(6):
+                print(f"challenge {(data["list"])[x]} = {(data[f"challenge_{(data["list"])[x]}"])}")
 
+def developers():# function for developers option
+    if choice == "d":
+        filename = f"developers.json"
+        with open(filename, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            print(data["developers"])
 #main
 while True:
     instructs()
@@ -167,3 +175,5 @@ while True:
     challenges()
     acheivments()
     developers()
+    if choice == "e":
+        break

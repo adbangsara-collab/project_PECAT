@@ -46,5 +46,7 @@
   "valid_ans2": [
     "true",
     "false"
-  ]
+  ],
+  "pass" : "Congrats! you passed",
+  "fail" : "Sorry, you failed"
 }
