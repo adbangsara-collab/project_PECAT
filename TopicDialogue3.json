@@ -9,9 +9,22 @@
   "begin":"Let us begin!",
   "organs": "Organs are very important as they give a balance to our respiration, framework and strength. They help us survive! Let's get the heart as an example. Imagine it doesn’t exist, would you survive? No, right? That’s why they are very very important for our survival",
   "diff": "There are different functions for each different organ! Let’s take a look!",
-  "A": "A.Respiratory/ Breathing",
-  "A2": "These organs help transport oxygen through your whole body for energy and survival.",
-  "A3": "Examples include:",
-  "B": "A.Respiratory/ Breathing"
+  "3A": "A.Respiratory/ Breathing",
+  "3A2": "These organs help transport oxygen through your whole body for energy and survival.",
+  "ExIn": "Examples include:",
+  "3A3": "  1.Trachea",
+  "3A4": "  2.Lungs",
+  "3A5": "  3.Diaphragm",
+  "3B": "A.Respiratory/ Breathing",
+  "3B1": "These organs help your body stand on its own and create movement without failures.",
+  "3B2": "  1.Skull",
+  "3B3": "  2.Femur",
+  "3B4": "  3.Joints",
+  "3C1": "C. Digestive/ Food decomposer",
+  "3C2": "These organs help you eat and drink water and give nutrients to your blood.",
+  "3C3": "  1.Esophagus",
+  "3C4": "  2.Stomach",
+  "3C5": "  3. Intestines"
+
 
 }
