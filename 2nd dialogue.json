@@ -3,7 +3,7 @@
   "a2": "A. Very much.",
   "b2": "B. Just a bit.",
   "c2": "C. I have never heard about this.",
-  "resptiss": "“Whatever your answer was, today we are going to talk about this and how this works”",
+  "resptiss": "Whatever your answer was, today we are going to talk about this and how this works",
   "start": "Let us start!",
   "block": "Basically, tissues are the building blocks for our organs. The tissues make the organs that keep us alive! We have different types of tissues in our body! We have over a thousand tissues.",
   "Ttypes": "The types of tissues",
@@ -22,4 +22,5 @@
   "MTex5": "  c. Smooth muscles (found in smooth organs like glands)",
   "NTex1": "* The reason why we can communicate with other people. It sends signals to the brain.",
   "NTex2": "* Contains neurons and neuroglia"
+
 }

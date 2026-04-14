@@ -5,7 +5,7 @@ filename = "dialogue.json"
 with open(filename) as f:
     dialogue = json.load(f)
 
-filename2 = "2nd dialogue.json"
+filename2 = "TopicDialogue3.json"
 
 with open(filename2) as f:
     dialogue2 = json.load(f)
@@ -20,7 +20,7 @@ while cont == False:
     YesNo = input("Enter: ")
 
     if YesNo == "e" or YesNo == "E":
-        input("Do you know what tissues are?: ")
+        input("Do you know what organs are?: ")
         print(dialogue["praise"])
 
         break
@@ -37,16 +37,17 @@ while cont == False:
 cont = False
 while cont == False:
     print("Content:")
-    print(dialogue2["Introtiss"])
-    print(dialogue2["a2"])
-    print(dialogue2["b2"])
-    print(dialogue2["c2"])
+    print(dialogue2["qhook"])
+    print(dialogue2["a3"])
+    print(dialogue2["b3"])
+    print(dialogue2["c3"])
+    print(dialogue2["d3"])
 
     input()
 
-    print(dialogue2["resptiss"])
-    print(dialogue2["start"])
-    print(  dialogue2["block"])
+    print(dialogue2["response"])
+    print(dialogue2["begin"])
+    print(  dialogue2["organs"])
 
     print(dialogue["dygi"])
     print(dialogue["E"])
@@ -67,25 +68,23 @@ while cont == False:
     if YesNo != "e" or YesNo != "E" or YesNo != "n" or YesNo != "N":
         print(dialogue["invalid"])
 
-        print(dialogue2["Ttypes"])
-        print(dialogue2["ET"])
-        print(  dialogue2["ETex1"])
-        print(  dialogue2["ETex2"])
+        print(dialogue2["diff"])
+        print(dialogue2["3A"])
+        print(  dialogue2["3A2"])
+        print(  dialogue2["ExIn"])
+        print(  dialogue2["ex"])
 
-        print(dialogue2["CT"])
-        print(  dialogue2["CTex1"])
-        print(  dialogue2["CTex2"])
+        print(dialogue2["B"])
+        print(  dialogue2["B2"])
 
-        print(dialogue2["MT"])
-        print(  dialogue2["MTex1"])
-        print(  dialogue2["MTex2"])
-        print(      dialogue2["MTex3"])
-        print(      dialogue2["MTex4"])
-        print(      dialogue2["MTex5"])
+        print(dialogue2["C1"])
+        print(dialogue2["C2"])
+        print(dialogue2["ex2"])
 
-        print(dialogue2["CT"])
-        print(dialogue2["NTex1"])
-        print(dialogue2["NTex2"])
+        print(dialogue2["D1"])
+        print(dialogue2["D2"])
+        print(dialogue2["ex3"])
+        print(dialogue2["D3"])
 
         print(dialogue["dygi"])
         print(dialogue["E"])

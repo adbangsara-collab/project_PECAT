@@ -1,0 +1,52 @@
+{
+  "main_dialog": "\uFEFF| QUIZ ABOUT TISSUES |\n                [Good luck]",
+  "dialog1": {
+    "1": "1. What are the tissues that help with body coordination and movement?\n               a. Muscle tissues\n                b. Nervous tissues\n                c.  Epithelial tissues\n                d. Connective tissues",
+    "2": "2. Squamous epithelial tissues are ___?\n                a. Heart\n                b. Muscles\n                c. Intestines (both large and small)\n                d. None of the above\n",
+    "3": "3.  Cardiac muscles are found on the ____.\n                a. White\n                b. Yellow\n                c. Red\n                d. Violet\n",
+    "4": "4. We can communicate with each other through what SPECIFIC type of tissue?\n                a. Every tissue\n                b. Nervous tissue\n                c. Connective tissue\n                d. Epithelial tissue\n",
+    "5": "5. What is an example of a nervous tissue?\n                a. Neuroglands to brain\n                b. Neurons to brain\n                c. Newtons to brain\n                d. Neurolitons to brain\n"
+  },
+  "answers1": [
+    "a",
+    "d",
+    "a",
+    "b",
+    "b"
+  ],
+  "dialog2": {
+    "1": "1.There are ‘5’ types of tissues.",
+    "2": "2.‘Ethiopal’ tissue is the covering and lining of organs.",
+    "3": "3.Tissues ‘create’ cells.",
+    "4": "4.Connective tissues are used for ‘framework’.",
+    "5": "5.Nervous tissues contain neurons and  ‘neuroglia’."
+  },
+  "answers2": [
+    "false",
+    "false",
+    "false",
+    "true",
+    "true"
+  ],
+  "dialog_ans1": {
+    "correct": " You are correct! You can now move on to the next question!",
+    "incorrect1": "You are incorrect! You have one more chance",
+    "incorrect2": "You are incorrect!"
+  },
+  "dialog_ans2": {
+    "correct": " You are correct! You can now move on to the next question!",
+    "incorrect": "Wrong. Moving on..."
+  },
+  "valid_ans1": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "valid_ans2": [
+    "true",
+    "false"
+  ],
+  "pass": "Congrats! you passed",
+  "fail": "Sorry, you failed"
+}
