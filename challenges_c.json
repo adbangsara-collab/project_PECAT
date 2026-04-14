@@ -1,0 +1,52 @@
+{
+  "main_dialog": "\uFEFF| QUIZ ABOUT ORGANS |\n                [Good luck]",
+  "dialog1": {
+    "1": "1. The skeleton is  known as the…?\n               a. Framework\n                b. Protector\n                c.  Coordinator\n                d. Breathing",
+    "2": "2. The skin is part of what type of organs?\n                a. Skeletal\n                b. Respiratory\n                c. Integumentary\n                d. Digestive\n",
+    "3": "3.  These organs help you receive the 5 senses.\n                a. Integumentary\n                b. Nervous\n                c. Digestive\n                d. Respiratory\n",
+    "4": "4. [Bonus (If you answer this correctly, you earn the “Super organ hero achievement”)]\n  Note: Bonus questions are not part of the topic but related to the topic  \n                a. 12\n                b. 13\n                c. 11\n                d. 10\n",
+    "5": "5. Digestive is used for..?\n                a. Eating, drinking\n                b. Breathing\n                c. Taking a poo on the toilet\n                d. Protection\n"
+  },
+  "answers1": [
+    "a",
+    "c",
+    "b",
+    "a",
+    "a"
+  ],
+  "dialog2": {
+    "1": "1.The Nervous system is “the only thing” that helps with communicating.",
+    "2": "2.Joints are part of the “skeletal” system.",
+    "3": "3.The “nervous” system is not a reliable way for communication. It's only used for body protection.",
+    "4": "4.Skin helps in “providing” skin protection.",
+    "5": "5.Trachea is used for “breathing” air."
+  },
+  "answers2": [
+    "true",
+    "true",
+    "false",
+    "true",
+    "true"
+  ],
+  "dialog_ans1": {
+    "correct": " You are correct! You can now move on to the next question!",
+    "incorrect1": "You are incorrect! You have one more chance",
+    "incorrect2": "You are incorrect!"
+  },
+  "dialog_ans2": {
+    "correct": " You are correct! You can now move on to the next question!",
+    "incorrect": "Wrong. Moving on..."
+  },
+  "valid_ans1": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "valid_ans2": [
+    "true",
+    "false"
+  ],
+  "pass": "Congrats! you passed",
+  "fail": "Sorry, you failed"
+}
