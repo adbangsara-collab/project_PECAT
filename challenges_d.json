@@ -1,0 +1,52 @@
+{
+  "main_dialog": "\uFEFF| QUIZ ABOUT ECOSYSTEM |\n                [Good luck]",
+  "dialog1": {
+    "1": "1. To what component of the ecosystem does the salmon go to?\n               a. Abiotic\n                b. Biotic\n                c.  Prokaryotic\n                d. Eukaryotic",
+    "2": "2. To what component of the ecosystem does helium go?\n                a. Skeletal\n                b. Respiratory\n                c. Integumentary\n                d. Digestive\n",
+    "3": "3. Which ones should we avoid to save the ecosystem?\nI. Throwing plastic bottles away\nII. Saving water\nIII. Killing animals for self perks.\n                a. I only\n                b. II only\n                c. I and III\n                d. All of them.\n",
+    "4": "4. [Bonus(If you get this correct, you get the animal veterinarian achievement)]\n\nWhich one belongs to the desert biome?\n                a. Northern white rhinoceros\n                b. Gecko\n                c. Egyptian tortoise\n                d. None of the above\n",
+    "5": "5. What is an ecosystem?\n                a. A geographical place where we live\n                b. Structural buildings\n                c. Where abiotic things take place.\n                d. All of the above\n"
+  },
+  "answers1": [
+    "b",
+    "b",
+    "a",
+    "c",
+    "d"
+  ],
+  "dialog2": {
+    "1": "1.The Nervous system is “the only thing” that helps with communicating.",
+    "2": "2.Joints are part of the “skeletal” system.",
+    "3": "3.The “nervous” system is not a reliable way for communication. It's only used for body protection.",
+    "4": "4.Skin helps in “providing” skin protection.",
+    "5": "5.Trachea is used for “breathing” air."
+  },
+  "answers2": [
+    "true",
+    "true",
+    "false",
+    "true",
+    "true"
+  ],
+  "dialog_ans1": {
+    "correct": " You are correct! You can now move on to the next question!",
+    "incorrect1": "You are incorrect! You have one more chance",
+    "incorrect2": "You are incorrect!"
+  },
+  "dialog_ans2": {
+    "correct": " You are correct! You can now move on to the next question!",
+    "incorrect": "Wrong. Moving on..."
+  },
+  "valid_ans1": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "valid_ans2": [
+    "true",
+    "false"
+  ],
+  "pass": "Congrats! you passed",
+  "fail": "Sorry, you failed"
+}
