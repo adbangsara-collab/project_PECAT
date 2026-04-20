@@ -12,17 +12,28 @@ def instructs(): # prints instructions
         instructions = json.load(file)
 
         print(instructions["I"])
+        time.sleep(0.5)
         print(instructions["Dl"])
+        time.sleep(0.5)
         print(instructions["1L"])
+        time.sleep(0.5)
         print(instructions["2L"])
+        time.sleep(0.5)
         print(instructions["3L"])
+        time.sleep(0.5)
         print(instructions["4L"])
+        time.sleep(0.5)
 
         print(instructions["Q"])
+        time.sleep(0.5)
         print(instructions["1Q"])
+        time.sleep(0.5)
         print(instructions["2Q"])
+        time.sleep(0.5)
         print(instructions["3Q"])
+        time.sleep(0.5)
         print(instructions["4Q"])
+        time.sleep(0.5)
 
 def print_menu_choices(): # prints menu and gets choice
     filename = "menu.json"
@@ -32,6 +43,7 @@ def print_menu_choices(): # prints menu and gets choice
             for x in data:
                 if x["dict"] == "topics":
                     print(x["choices"])
+                    time.sleep(0.5)
             choice = input("Input: ")
             for x in data:
                 if x["dict"] == "topics":
@@ -56,14 +68,14 @@ def topics(choice): # function for topic option
                     if choice1 in x["list1"]:
                         break
                     else:
-                        print("enter valid input")
+                        print("\nenter valid input\n")
             print(x["choices2"])
             while True:# loops until valid input
                         choice2 = input("Input: ")
                         if choice2 in x["list2"]:
                             break
                         else:
-                            print("enter valid input")
+                            print("\nenter valid input\n")
         if choice2 == "1":
             filename = f"topics_{choice1}.json"
             with open(filename, 'r') as file:
@@ -81,10 +93,11 @@ def challenges(): # function for challenges option
             print(x["choices1"])
             while True:  # loops until valid input
                 choice1 = input("Input: ")
+                print("\n Quiz: \n")
                 if choice1 in x["list1"]:
                     break
                 else:
-                    print("enter valid input")
+                    print("\nEnter valid input\n")
             file.close()
         filename = f"challenges_{choice1}.json"
         with open(filename, 'r', encoding='utf-8') as file:
@@ -97,13 +110,15 @@ def challenges(): # function for challenges option
                 while True:
                     answers1 = x["answers1"]
                     print(dialog1[str(z)])
+                    time.sleep(0.5)
                     tries += 1
                     while True:  # loops until valid input
                         answer = input("Input: ")
+                        print("")
                         if answer in x["valid_ans1"]:
                             break
                         else:
-                            print("Enter valid input: ")
+                            print("\nEnter valid input\n")
                     if answer.lower() == answers1[(z-1)]:
                         dialog_ans1 = x["dialog_ans1"]
                         print(dialog_ans1["correct"])
@@ -121,8 +136,10 @@ def challenges(): # function for challenges option
                 while True:
                         answers2 = x["answers2"]
                         print(dialog2[str(z)])
+                        time.sleep(0.5)
                         while True:  # loops until valid input
                             answer = input("Input: ")
+                            print("")
                             if answer in x["valid_ans2"]:
                                 break
                             else:
@@ -159,7 +176,9 @@ def acheivments():# function for acheivment option
         with open(filename, 'r', encoding='utf-8') as file:
             data = json.load(file)
             for x in range(6):
+                print("")
                 print(f"challenge {(data["list"])[x]} = {(data[f"challenge_{(data["list"])[x]}"])}")
+                time.sleep(0.5)
 
 def developers():# function for developers option
     if choice == "d":
