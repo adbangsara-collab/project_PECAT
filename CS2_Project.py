@@ -1,5 +1,6 @@
 #imports
 import json
+import time
 
 #variables
 
@@ -63,15 +64,14 @@ def topics(choice): # function for topic option
                             break
                         else:
                             print("enter valid input")
-        filename = f"topics_{choice1}.json"
-        with open(filename, 'r', encoding='utf-8') as file:
-            data = json.load(file)
-            if choice2 == "1":
+        if choice2 == "1":
+            filename = f"topics_{choice1}.json"
+            with open(filename, 'r') as file:
+                data = json.load(file)
+                print(data["greet"])
                 for x in range(1, data["amount"]):
-                    print(data[choice2][x])
-
-
-
+                    print(data["1"][str(x)], end = "")
+                    sdfdsffdf = input("")
 def challenges(): # function for challenges option
     if choice == "b":
         filename = "challenges.json"
