@@ -15,16 +15,16 @@
     "d"
   ],
   "dialog2": {
-    "1": "1.The Nervous system is “the only thing” that helps with communicating.",
-    "2": "2.Joints are part of the “skeletal” system.",
-    "3": "3.The “nervous” system is not a reliable way for communication. It's only used for body protection.",
-    "4": "4.Skin helps in “providing” skin protection.",
-    "5": "5.Trachea is used for “breathing” air."
+    "1": "1.The 108 elements are “Abiotic”",
+    "2": "2.Fish are from the “biotic” section.",
+    "3": "3.We should always recycle our recyclables.",
+    "4": "4.Pollution “destroys” our ecosystem.",
+    "5": "5.Let's conserve water every day."
   },
   "answers2": [
     "true",
     "true",
-    "false",
+    "true",
     "true",
     "true"
   ],
