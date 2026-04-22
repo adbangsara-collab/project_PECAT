@@ -158,15 +158,18 @@ def challenges(): # function for challenges option
             else:
                 print(x["fail"])
             print(f"You got {correct} correct out of 10")
+            try:
+                value = data["special_acheivment"]
+            except KeyError:
+                print("Key does not exist.")
         filename = f"acheivments.json"
         with open(filename, 'r', encoding='utf-8') as file:
             data = json.load(file)
             if correct >= 6:
                 data[f"challenge_{choice1}"] = "solved"
-                print("a")
+                data[f"challenge_{value}"] = "solved"
         with open(filename, 'w') as file:
             json.dump(data, file)
-            print("b")
 
 
 
@@ -175,8 +178,9 @@ def acheivments():# function for acheivment option
         filename = f"acheivments.json"
         with open(filename, 'r', encoding='utf-8') as file:
             data = json.load(file)
+            print("")
+            print("Acheivments:")
             for x in range(6):
-                print("")
                 print(f"challenge {(data["list"])[x]} = {(data[f"challenge_{(data["list"])[x]}"])}")
                 time.sleep(0.5)
 
@@ -187,8 +191,8 @@ def developers():# function for developers option
             data = json.load(file)
             print(data["developers"])
 #main
-while True:
     instructs()
+while True:
     choice = print_menu_choices()
     topics(choice)
     challenges()
