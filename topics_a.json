@@ -1,17 +1,8 @@
 {
-  "greet": "Hello user!",
-  "ask": "Can I ask you  a question?",
-  "E": "[Press e if yes]",
-  "N": "[Press n if no]",
-  "praise": "Great! Because this is what we are gonna talk about today!",
-  "nope": "We’re gonna discuss it anyway.",
-  "invalid": "invalid input",
-  "a": "A) Every living thing is made of cells",
-  "b": "B) Cells are the basic unit of life",
-  "c": "C) Cells come from pre-existing cells",
-  "dygi": "Do you get it?",
-  "moveon": "Great! We can now move on to the next part!",
-  "uhoh": "Read it again for further information.",
-  "cont": "Great! Because this is what we are gonna talk about today!"
-
+  "amount" : 1,
+  "1" : {
+    "1" : "placeholder"
+  },
+  "2" : "",
+  "3" : ""
 }
