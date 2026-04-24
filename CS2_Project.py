@@ -167,7 +167,11 @@ def challenges(): # function for challenges option
             data = json.load(file)
             if correct >= 6:
                 data[f"challenge_{choice1}"] = "solved"
+                print("You completed a challenge!")
+            try:
                 data[f"challenge_{value}"] = "solved"
+            except:
+                print("")
         with open(filename, 'w') as file:
             json.dump(data, file)
 
