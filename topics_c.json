@@ -1,29 +1,24 @@
 {
-  "title":"organs",
-  "qhook":"How many organs do you know?",
-  "a3":"A.Less than 10",
-  "b3":"B.Less than 25",
-  "c3":"C.Less than 50",
-  "d3":"D. More than 50",
-  "response": "No matter how much you know, we are gonna add your knowledge to that and uhh… enjoy!",
-  "begin":"Let us begin!",
-  "organs": "Organs are very important as they give a balance to our respiration, framework and strength. They help us survive! Let's get the heart as an example. Imagine it doesn’t exist, would you survive? No, right? That’s why they are very very important for our survival",
-  "diff": "There are different functions for each different organ! Let’s take a look!",
-  "3A": "A.Respiratory/ Breathing",
-  "3A2": "These organs help transport oxygen through your whole body for energy and survival.",
-  "ExIn": "Examples include:",
-  "ex": "  1.Trachea \n  2.Lungs \n  3.Diaphgragm",
-  "B": "B.Skeletal/ Framework",
-  "B1": "These organs help your body stand on its own and create movement without failures.",
-  "B2": "  1.Skull \n 2.Femur \n 3.Joints",
-  "C1": "C. Digestive/ Food decomposer",
-  "C2": "These organs help you eat and drink water and give nutrients to your blood.",
-  "ex2": "  1.Esophagus \n  2.Stomach \n  3. Intestines ",
-  "D1": "D. Integumentary / Protector",
-  "D2": "These organs protect your body from going too hot or too cold.",
-  "ex3": "1. Brain \n   2. Nerves \n  3. Spinal cord\n",
-  "D3": "Only put 5 out of 12 because you shall not suffer, plus it wouldn't fit enough for the quiz"
-
-
-
+  "amount" : 18,
+  "1" : {
+    "1":"Let us begin!",
+    "2": "Organs are very important as they give a balance to our respiration, framework and strength. They help us survive! Let's get the heart as an example. Imagine it doesn’t exist, would you survive? No, right? That’s why they are very very important for our survival",
+    "3": "There are different functions for each different organ! Let’s take a look!",
+    "4": "A.Respiratory/ Breathing",
+    "5": "These organs help transport oxygen through your whole body for energy and survival.",
+    "6": "Examples include:",
+    "7": "  1.Trachea \n  2.Lungs \n  3.Diaphgragm",
+    "8": "B.Skeletal/ Framework",
+    "9": "These organs help your body stand on its own and create movement without failures.",
+    "10": "  1.Skull \n 2.Femur \n 3.Joints",
+    "11": "C. Digestive/ Food decomposer",
+    "12": "These organs help you eat and drink water and give nutrients to your blood.",
+    "13": "  1.Esophagus \n  2.Stomach \n  3. Intestines ",
+    "14": "D. Integumentary / Protector",
+    "15": "These organs protect your body from going too hot or too cold.",
+    "16": "1. Brain \n   2. Nerves \n  3. Spinal cord\n",
+    "17": "Only put 5 out of 12 because you shall not suffer, plus it wouldn't fit enough for the quiz"
+  },
+  "2" : "",
+  "3" : ""
 }
