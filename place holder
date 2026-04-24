@@ -1,9 +1,6 @@
-
-{
-  "amount" : 1,
-  "1" : {
-    "1" : "placeholder"
-  },
-  "2" : "",
-  "3" : ""
-}
+"Great! Because this is what we are gonna talk about today!",
+  "nope": "We’re gonna discuss it anyway.",
+  "invalid": "invalid input",
+  "a": "A) Every living thing is made of cells",
+  "b": "B) Cells are the basic unit of life",
+  "c": "C) Cells come from pre-existing cells",
