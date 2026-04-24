@@ -2,6 +2,6 @@
     "dict" : "menu",
     "choices1": "a : Cells\nb : Tissue\nc : Organ\nd : Organism\ne : Eukaryote\nf : Prokaryote\n",
     "list1" : ["a","b","c","d","e","f"],
-    "choices2" : "1 : Textual\n2 : Not available : \n3 : Not available",
+    "choices2" : "1 : Graphic\n2 : Textual\n3 : Video",
     "list2" : ["1","2","3"]
 }
