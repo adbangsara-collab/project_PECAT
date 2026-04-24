@@ -48,5 +48,6 @@
     "false"
   ],
   "pass": "Congrats! you passed",
-  "fail": "Sorry, you failed"
+  "fail": "Sorry, you failed",
+  "special_acheivment" : "true"
 }
