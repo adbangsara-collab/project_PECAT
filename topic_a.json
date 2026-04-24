@@ -1,7 +1,9 @@
 {
   "amount" : 1,
   "1" : {
-    "1" : "placeholder"
+    "1": "A) Every living thing is made of cells",
+    "2": "B) Cells are the basic unit of life",
+    "3": "C) Cells come from pre-existing cells"
   },
   "2" : "",
   "3" : ""
