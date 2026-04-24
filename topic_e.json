@@ -1,8 +1,16 @@
 {
-  "congrats": "Congratulations, my little cattywampus cucumbers. You are now on Topic 5, the almost ending of your journey. Caine is gon miss you ):. Wait no- he can’t, He is dead. Remember?",
-  "special": "Adaptation of every organism. (Special topic)",
-  "response": "No matter how much you know, we are gonna add your knowledge to that and uhh… enjoy!",
-  "adaptation": "First of all, what is abstraction, I mean adaptation.\n\tWell, adaptation is a way we organisms do to survive a harsh environment. Well that's exactly what Pomni and the other circus people did. I NEED TO STOP THINKING OF TADC REFERENCES. So lets get the polar bear as an example, his thick fur helped him adapt through the harsh, cold freezing environment.\n",
-  "trick": "W-ell that's all I got to say, there’s no more quiz because it's too short.",
-  "receiveachievement": "ACTUAL CONGRATULATIONS TO MY LITTLE SPREAD PB AND J FOR COMPLETING EVERYTHING. YOU'LL GET AN ACHIEVEMENT CALLED COMPLETION. CLAIM IT, OR ILL MAKE YOU ABSTRACT."
+  "amount" : 1,
+  "1" : {
+    "1": "Congratulations, my little cattywampus cucumbers. You are now on Topic 5, the almost ending of your journey. Caine is gon miss you ):. Wait no- he can’t, He is dead. Remember?",
+    "2": "Adaptation of every organism. (Special topic)",
+    "3": "No matter how much you know, we are gonna add your knowledge to that and uhh… enjoy!",
+    "4": "First of all, what is abstraction, I mean adaptation.",
+    "5": "Well, adaptation is a way we organisms do to survive a harsh environment. Well that's exactly what Pomni and the other circus people did.",
+    "6": "I NEED TO STOP THINKING OF TADC REFERENCES. So lets get the polar bear as an example, his thick fur helped him adapt through the harsh, cold freezing environment.\n",
+    "7": "W-ell that's all I got to say, there’s no more quiz because it's too short.",
+    "8": "ACTUAL CONGRATULATIONS TO MY LITTLE SPREAD PB AND J FOR COMPLETING EVERYTHING. YOU'LL GET AN ACHIEVEMENT CALLED COMPLETION. CLAIM IT, OR ILL MAKE YOU ABSTRACT."
+  }
+  },
+  "2" : "",
+  "3" : ""
 }
