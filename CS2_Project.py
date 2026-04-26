@@ -44,7 +44,7 @@ def intro(): # For the program to greet the users
         data = json.load(file)
 
         for value in data.values():
-            time.sleep(1)
+            time.sleep(0.2)
             print(value)
 
 def print_menu_choices(): # prints menu and gets choice
@@ -55,7 +55,7 @@ def print_menu_choices(): # prints menu and gets choice
             for x in data:
                 if x["dict"] == "topics":
                     print(x["choices"])
-                    time.sleep(0.5)
+                    time.sleep(1)
             choice = input("Input: ")
             for x in data:
                 if x["dict"] == "topics":
@@ -92,7 +92,6 @@ def topics(choice): # function for topic option
             filename = f"topics_{choice1}.json"
             with open(filename, 'r') as file:
                 data = json.load(file)
-                print(data["greet"])
                 for x in range(1, data["amount"]):
                     print(data["1"][str(x)], end = "")
                     sdfdsffdf = input("")
