@@ -5,6 +5,8 @@ import time
 #variables
 
 #functions
+
+
 def instructs(): # prints instructions
 
     filename = "instructions.json" # open file
@@ -34,6 +36,16 @@ def instructs(): # prints instructions
         time.sleep(0.5)
         print(instructions["4Q"])
         time.sleep(0.5)
+
+
+def intro(): # For the program to greet the users
+    filename = "greetings.json"
+    with open(filename, 'r') as file:
+        data = json.load(file)
+
+        for value in data.values():
+            time.sleep(1)
+            print(value)
 
 def print_menu_choices(): # prints menu and gets choice
     filename = "menu.json"
@@ -195,8 +207,10 @@ def developers():# function for developers option
             data = json.load(file)
             print(data["developers"])
 #main
+
     instructs()
 while True:
+    intro()
     choice = print_menu_choices()
     topics(choice)
     challenges()
