@@ -44,7 +44,7 @@ def intro(): # For the program to greet the users
         data = json.load(file)
 
         for value in data.values():
-            time.sleep(0.2)
+            time.sleep(1)
             print(value)
 
 def print_menu_choices(): # prints menu and gets choice
