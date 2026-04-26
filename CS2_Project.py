@@ -44,7 +44,7 @@ def intro(): # For the program to greet the users
         data = json.load(file)
 
         for value in data.values():
-            time.sleep(1)
+            time.sleep(0.5)
             print(value)
 
 def print_menu_choices(): # prints menu and gets choice
@@ -207,8 +207,10 @@ def developers():# function for developers option
             print(data["developers"])
 #main
 
+
     instructs()
 while True:
+
     intro()
     choice = print_menu_choices()
     topics(choice)
