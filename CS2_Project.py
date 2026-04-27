@@ -61,8 +61,10 @@ def print_menu_choices(): # prints menu and gets choice
                 if x["dict"] == "topics":
                     if choice in x["list"]:
                         z = True
+                        return choice 
                     else:
                         z = False
+                        print("\nenter valid input\n"
             if z == True:
                 return choice
             else:
