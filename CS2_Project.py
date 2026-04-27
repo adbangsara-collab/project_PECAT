@@ -56,7 +56,7 @@ def print_menu_choices(): # prints menu and gets choice
                 if x["dict"] == "topics":
                     print(x["choices"])
                     time.sleep(1)
-            choice = (input("Input: ")).lower
+            choice = input("Input: ").lower()
             for x in data:
                 if x["dict"] == "topics":
                     if choice in x["list"]:
@@ -78,7 +78,7 @@ def topics(choice): # function for topic option
             x = data[0]
             print(x["choices1"])
             while True: # loops until valid input
-                    choice1 = input("Input: ")
+                    choice1 = input("Input: ").lower()
                     if choice1 in x["list1"]:
                         break
                     else:
@@ -98,7 +98,7 @@ def challenges(): # function for challenges option
             x = data
             print(x["choices1"])
             while True:  # loops until valid input
-                choice1 = (input("Input: ")).lower
+                choice1 = input("Input: ").lower()
                 print("\n Quiz: \n")
                 if choice1 in x["list1"]:
                     break
@@ -119,7 +119,7 @@ def challenges(): # function for challenges option
                     time.sleep(0.5)
                     tries += 1
                     while True:  # loops until valid input
-                        answer = (input("Input: ")).lower
+                        answer = input("Input: ").lower()
                         print("")
                         if answer in x["valid_ans1"]:
                             break
@@ -144,7 +144,7 @@ def challenges(): # function for challenges option
                         print(dialog2[str(z)])
                         time.sleep(0.5)
                         while True:  # loops until valid input
-                            answer = (input("Input: ")).lower
+                            answer = input("Input: ").lower()
                             print("")
                             if answer in x["valid_ans2"]:
                                 break
