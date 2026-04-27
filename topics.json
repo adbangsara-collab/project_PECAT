@@ -1,8 +1,8 @@
 [
   {
     "dict" : "menu",
-    "choices1": "a : Cells\nb : Tissue\nc : Organ\nd : Organism\ne : Eukaryote\nf : Prokaryote\n",
-    "list1" : ["a","b","c","d","e","f"],
+    "choices1": "a : Cells\nb : Tissue\nc : Organ\nd : Organism\ne : Eukaryote\n",
+    "list1" : ["a","b","c","d","e"],
     "choices2" : "1 : Graphic\n2 : Textual\n3 : Video",
     "list2" : ["1","2","3"]
   },
@@ -32,12 +32,6 @@
   },
   {
     "dict" : "e",
-    "1" : "placeholder",
-    "2" : "placeholder",
-    "3" : "placeholder"
-  },
-  {
-    "dict" : "f",
     "1" : "placeholder",
     "2" : "placeholder",
     "3" : "placeholder"
