@@ -83,7 +83,6 @@ def topics(choice): # function for topic option
                         break
                     else:
                         print("\nenter valid input\n")
-            print(x["choices2"])
             filename = f"topics_{choice1}.json"
             with open(filename, 'r') as file:
                 data = json.load(file)
